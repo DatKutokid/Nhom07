@@ -12,8 +12,7 @@ Quản lý món ăn, đồ uống
 Quản lý hóa đơn, thanh toán
 Quản lý nhân viên
 Quản lý khách hàng
-Báo cáo doanh thu
-👥 Thành viên nhóm
+Báo cáo doanh thu👥 Thành viên nhóm
 Mai Minh Nhật
 Nguyễn Tiến Đạt
 Nguyễn Thế Phong
