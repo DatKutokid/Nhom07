@@ -1,19 +1,30 @@
-Quản Lý Nhà Hàng Cafe - Nhóm 07
-📌 Giới thiệu
-Dự án này được phát triển bởi Nhóm 07 nhằm xây dựng hệ thống quản lý quán cà phê/nhà hàng.
-Ứng dụng hỗ trợ quản lý thực đơn, hóa đơn, nhân viên và khách hàng một cách hiệu quả.
+# QL_NhaHangCafe_Nhom07
 
-🚀 Công nghệ sử dụng
-Ngôn ngữ: C# (.NET Framework / .NET Core)
-IDE: Visual Studio
-CSDL: SQL Server
-⚙️ Chức năng chính
-Quản lý món ăn, đồ uống
-Quản lý hóa đơn, thanh toán
-Quản lý nhân viên
-Quản lý khách hàng
-Báo cáo doanh thu
-👥 Thành viên nhóm
-Mai Minh Nhật
-Nguyễn Tiến Đạt
-Nguyễn Thế Phong
+## 📌 Giới thiệu
+Dự án **Quản Lý Nhà Hàng Cafe** được phát triển bởi **Nhóm 07** trong học phần **Công Nghệ Phần Mềm**.  
+Ứng dụng xây dựng bằng **ASP.NET Core (.NET)** kết hợp **Entity Framework Core** và **SQL Server** để quản lý hoạt động của nhà hàng/cafe.
+
+---
+
+## 👥 Thành viên nhóm
+- Mai Minh Nhật
+- Nguyễn Tiến Đạt
+- Nguyễn Thế Phong
+---
+
+## ⚙️ Công nghệ sử dụng
+- **Ngôn ngữ**: C#  
+- **Framework**: ASP.NET Core (.NET 8)  
+- **ORM**: Entity Framework Core  
+- **CSDL**: SQL Server  
+- **IDE**: Visual Studio / VS Code  
+- **Quản lý mã nguồn**: GitHub  
+
+---
+
+## 🚀 Cài đặt và chạy dự án
+
+### 1. Clone repo
+```bash
+git clone https://github.com/DatKutokid/Nhom07.git
+cd Nhom07
