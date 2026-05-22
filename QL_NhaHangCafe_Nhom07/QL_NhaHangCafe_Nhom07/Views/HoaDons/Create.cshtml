@@ -1,0 +1,147 @@
+﻿@model QL_NhaHangCafe_Nhom07.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Tạo hóa đơn";
+}
+
+<h2 class="mb-4">Tạo hóa đơn</h2>
+
+<div class="card shadow p-4">
+
+    <form asp-action="Create">
+
+        <div asp-validation-summary="All"
+             class="text-danger mb-3">
+        </div>
+
+        <!-- BÀN -->
+
+        <div class="mb-3">
+
+            <label asp-for="MaBan"
+                   class="form-label">
+
+                Bàn
+
+            </label>
+
+            <select asp-for="MaBan"
+                    class="form-select"
+                    asp-items="ViewBag.MaBan">
+
+                <option value="">
+                    -- Chọn bàn --
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- NHÂN VIÊN -->
+
+        <div class="mb-3">
+
+            <label asp-for="MaNv"
+                   class="form-label">
+
+                Nhân viên
+
+            </label>
+
+            <select asp-for="MaNv"
+                    class="form-select"
+                    asp-items="ViewBag.MaNv">
+
+                <option value="">
+                    -- Chọn nhân viên --
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- KHÁCH HÀNG -->
+
+        <div class="mb-3">
+
+            <label asp-for="MaKh"
+                   class="form-label">
+
+                Khách hàng
+
+            </label>
+
+            <select asp-for="MaKh"
+                    class="form-select"
+                    asp-items="ViewBag.MaKh">
+
+                <option value="">
+                    -- Chọn khách hàng --
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- NGÀY LẬP -->
+
+        <div class="mb-3">
+
+            <label asp-for="NgayLap"
+                   class="form-label">
+
+                Ngày lập
+
+            </label>
+
+            <input asp-for="NgayLap"
+                   type="datetime-local"
+                   class="form-control" />
+
+        </div>
+
+        <!-- TỔNG TIỀN -->
+
+        <div class="mb-3">
+
+            <label asp-for="TongTien"
+                   class="form-label">
+
+                Tổng tiền
+
+            </label>
+
+            <input asp-for="TongTien"
+                   class="form-control"
+                   readonly />
+
+        </div>
+
+        <!-- BUTTON -->
+
+        <button type="submit"
+                class="btn btn-success">
+
+            <i class="bi bi-save"></i>
+            Tạo hóa đơn
+
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+
+            Quay lại
+
+        </a>
+
+    </form>
+
+</div>
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

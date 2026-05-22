@@ -1,0 +1,122 @@
+﻿@model IEnumerable<QL_NhaHangCafe_Nhom07.Models.HoaDon>
+
+@{
+    ViewData["Title"] = "Danh sách hóa đơn";
+}
+
+<h2 class="mb-4">Danh sách hóa đơn</h2>
+
+<a asp-action="Create"
+   class="btn btn-primary mb-3">
+
+    <i class="bi bi-plus-circle"></i>
+    Tạo hóa đơn
+
+</a>
+
+<table class="table table-bordered table-hover align-middle">
+
+    <thead class="table-dark text-center">
+
+        <tr>
+            <th>Mã HĐ</th>
+            <th>Bàn</th>
+            <th>Khách hàng</th>
+            <th>Ngày lập</th>
+            <th>Tổng tiền</th>
+            <th width="250">Chức năng</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @if (Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <!-- MÃ HÓA ĐƠN -->
+
+                    <td class="text-center">
+                        @item.MaHd
+                    </td>
+
+                    <!-- BÀN -->
+
+                    <td>
+                        @item.MaBanNavigation?.TenBan
+                    </td>
+
+                    <!-- KHÁCH HÀNG -->
+
+                    <td>
+                        @item.MaKhNavigation?.HoTen
+                    </td>
+
+                    <!-- NGÀY LẬP -->
+
+                    <td>
+                        @(item.NgayLap?.ToString("dd/MM/yyyy HH:mm"))
+                    </td>
+
+                    <!-- TỔNG TIỀN -->
+
+                    <td class="text-end text-danger fw-bold">
+
+                        @String.Format("{0:N0}", item.TongTien) VNĐ
+
+                    </td>
+
+                    <!-- BUTTON -->
+
+                    <td class="text-center">
+
+                        <a asp-action="Details"
+                           asp-route-id="@item.MaHd"
+                           class="btn btn-info btn-sm">
+
+                            Chi tiết
+
+                        </a>
+
+                        <a asp-action="Edit"
+                           asp-route-id="@item.MaHd"
+                           class="btn btn-warning btn-sm">
+
+                            Sửa
+
+                        </a>
+
+                        <a asp-action="Delete"
+                           asp-route-id="@item.MaHd"
+                           class="btn btn-danger btn-sm"
+                           onclick="return confirm('Bạn có chắc muốn xóa hóa đơn này?')">
+
+                            Xóa
+
+                        </a>
+
+                    </td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+
+                <td colspan="6"
+                    class="text-center text-muted">
+
+                    Chưa có hóa đơn nào
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

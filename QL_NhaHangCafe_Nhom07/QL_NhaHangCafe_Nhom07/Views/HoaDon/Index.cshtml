@@ -1,0 +1,104 @@
+﻿@model IEnumerable<QL_NhaHangCafe_Nhom07.Models.HoaDon>
+
+@{
+    ViewData["Title"] = "Danh sách hóa đơn";
+}
+
+<div class="inner-content-box">
+
+    <h2 class="mb-4 text-dark-coffee">Danh sách hóa đơn</h2>
+
+    @if (TempData["success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show d-flex align-items-center gap-2" role="alert">
+            <i class="bi bi-check-circle-fill fs-5"></i>
+            <span>@TempData["success"]</span>
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Đóng"></button>
+        </div>
+    }
+
+    @if (TempData["error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show d-flex align-items-center gap-2" role="alert">
+            <i class="bi bi-x-circle-fill fs-5"></i>
+            <span>@TempData["error"]</span>
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Đóng"></button>
+        </div>
+    }
+
+    <div class="mb-3 d-flex justify-content-between align-items-center">
+        <span class="text-muted">
+            Tổng số hóa đơn: <strong class="text-dark">@Model.Count()</strong>
+        </span>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle me-1"></i> Lập hóa đơn mới
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th width="100">Mã HĐ</th>
+                    <th>Bàn</th>
+                    <th>Khách hàng</th>
+                    <th>Nhân viên</th>
+                    <th>Ngày lập</th>
+                    <th>Tổng tiền</th>
+                    <th width="130">Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hd in Model)
+                {
+                    <tr>
+                        <td class="text-center fw-bold text-primary">#@hd.MaHd</td>
+                        <td>@(hd.MaBanNavigation?.TenBan ?? "—")</td>
+                        <td>@(hd.MaKhNavigation?.HoTen ?? "—")</td>
+                        <td>@(hd.MaNvNavigation?.HoTen ?? "—")</td>
+                        <td class="text-center">
+                            @(hd.NgayLap.HasValue? hd.NgayLap.Value.ToString("dd/MM/yyyy HH:mm") : "—")
+                        </td>
+                        <td class="text-end text-danger fw-bold fs-6">
+                            @(hd.TongTien.HasValue? hd.TongTien.Value.ToString("N0") + " ₫" : "0 ₫")
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Details" asp-route-id="@hd.MaHd" class="btn btn-sm btn-outline-primary me-1" title="Chi tiết">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@hd.MaHd" class="btn btn-sm btn-outline-danger" title="Xóa"
+                               onclick="return confirm('Bạn có chắc muốn xóa hóa đơn #@hd.MaHd không?')">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+
+                @if (!Model.Any())
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-muted py-4">
+                            <i class="bi bi-inbox fs-4 d-block mb-2"></i>
+                            Chưa có hóa đơn nào trong hệ thống.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        // Tự động đóng thông báo Alert mượt mà sau 4 giây
+        setTimeout(function () {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(function (alert) {
+                alert.classList.remove('show');
+                alert.classList.add('fade');
+                setTimeout(() => alert.remove(), 150);
+            });
+        }, 4000);
+    </script>
+}

@@ -1,0 +1,54 @@
+﻿@model QL_NhaHangCafe_Nhom07.Models.Ban
+
+@{
+    ViewData["Title"] = "Thêm bàn";
+}
+
+<h2>Thêm bàn mới</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label>Tên bàn</label>
+        <input asp-for="TenBan" class="form-control" />
+        <span asp-validation-for="TenBan" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Số chỗ ngồi</label>
+        <input asp-for="SoChoNgoi" class="form-control" />
+        <span asp-validation-for="SoChoNgoi" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Khu vực</label>
+        <select asp-for="MaKhuVuc" class="form-control" asp-items="ViewBag.MaKhuVuc">
+            <option value="">-- Chọn khu vực --</option>
+        </select>
+        <span asp-validation-for="MaKhuVuc" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Trạng thái</label>
+        <select asp-for="TrangThai" class="form-control">
+            <option value="Trống">Trống</option>
+            <option value="Đang có khách">Đang có khách</option>
+            <option value="Đã đặt">Đã đặt</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Thêm bàn
+    </button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\datbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\datbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\controllers\\datbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\controllers\\datbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\controllers\\banscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\controllers\\banscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\bans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\bans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\bans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\bans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadons\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\datbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\datbans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\datbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\datbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadons\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\hoadons\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\hoadons\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\controllers\\monanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\controllers\\monanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|c:\\users\\mainh\\downloads\\ql_nhahangcafe_nhom07\\ql_nhahangcafe_nhom07\\views\\monans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E12D91F-4E82-263D-CF87-AD2C2DD6C526}|QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07.csproj|solutionrelative:ql_nhahangcafe_nhom07\\views\\monans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoaDonsController.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\HoaDonsController.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Controllers\\HoaDonsController.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\HoaDonsController.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Controllers\\HoaDonsController.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAYwMYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:43:45.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BansController.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\BansController.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Controllers\\BansController.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\BansController.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Controllers\\BansController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:37:55.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Bans\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\Bans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Bans\\Index.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\Bans\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:45:05.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatBansController.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\DatBansController.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Controllers\\DatBansController.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\DatBansController.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Controllers\\DatBansController.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAwHEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:43:17.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Create.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Create.cshtml",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T16:00:46.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAiwIkBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T08:03:36.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Index.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Index.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T16:00:13.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Details.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Details.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDon\\Details.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAAANkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T02:12:37.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Bans\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\Bans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Bans\\Create.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\Bans\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:45:36.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAABYBAAAAAAAAAAAQwDABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-21T16:08:58.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Create.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:46:14.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Index.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:46:30.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Edit.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T08:15:09.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatBan.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Models\\DatBan.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Models\\DatBan.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Models\\DatBan.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Models\\DatBan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:13:01.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T09:13:34.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Create.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T15:35:15.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Details.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Details.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\DatBans\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T08:17:21.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KhachHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\KhachHangsController.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Controllers\\KhachHangsController.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\KhachHangsController.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Controllers\\KhachHangsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:15:04.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Details.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Details.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\HoaDons\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:46:42.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MonAnsController.cs",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\MonAnsController.cs",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Controllers\\MonAnsController.cs",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Controllers\\MonAnsController.cs",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Controllers\\MonAnsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:42:50.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\MonAns\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_NhaHangCafe_Nhom07\\Views\\MonAns\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mainh\\Downloads\\QL_NhaHangCafe_Nhom07\\QL_NhaHangCafe_Nhom07\\Views\\MonAns\\Index.cshtml",
+              "RelativeToolTip": "QL_NhaHangCafe_Nhom07\\Views\\MonAns\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:45:53.87Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

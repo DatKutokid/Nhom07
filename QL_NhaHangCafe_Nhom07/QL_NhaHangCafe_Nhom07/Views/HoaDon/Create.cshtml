@@ -1,0 +1,138 @@
+﻿@model QL_NhaHangCafe_Nhom07.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Lập hóa đơn";
+}
+
+<div class="inner-content-box">
+
+    <h2 class="mb-4 text-dark-coffee">Lập hóa đơn</h2>
+
+    <form asp-action="Create" method="post">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Chọn bàn</label>
+            <select asp-for="MaBan" class="form-select" asp-items="ViewBag.MaBan">
+                <option value="">-- Chọn bàn --</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Khách hàng</label>
+            <select asp-for="MaKh" class="form-select" asp-items="ViewBag.MaKh">
+                <option value="">-- Chọn khách hàng --</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Nhân viên</label>
+            <select asp-for="MaNv" class="form-select" asp-items="ViewBag.MaNv">
+                <option value="">-- Chọn nhân viên --</option>
+            </select>
+        </div>
+
+        <hr />
+
+        <h4 class="mb-3 text-dark-coffee">Chọn món ăn</h4>
+
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Món ăn</th>
+                        <th>Giá</th>
+                        <th width="150">Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.MonAns)
+                    {
+                        <tr>
+                            <td class="fw-bold">@item.TenMon</td>
+
+                            <td class="gia text-end">
+                                @item.Gia.ToString("N0") ₫
+                            </td>
+
+                            <td>
+                                <input type="number"
+                                       name="soLuongs"
+                                       class="form-control soluong text-center"
+                                       min="0"
+                                       value="0" />
+
+                                <input type="hidden" name="monAnIds" value="@item.MaMon" />
+
+                                <input type="hidden" class="giaMon" value="@item.Gia" />
+                            </td>
+
+                            <td class="thanhtien text-end text-danger fw-bold">0 ₫</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Tổng tiền tạm tính</label>
+            <input type="text"
+                   id="TongTienHienThi"
+                   class="form-control text-danger fw-bold fs-5"
+                   readonly
+                   placeholder="0 ₫" />
+        </div>
+
+        <input type="hidden" asp-for="TongTien" id="TongTien" />
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-success px-4 py-2">
+                <i class="bi bi-check-circle me-1"></i> Lập hóa đơn
+            </button>
+            <a asp-action="Index" class="btn btn-secondary ms-2 px-4 py-2">
+                <i class="bi bi-arrow-left me-1"></i> Quay lại
+            </a>
+        </div>
+
+    </form>
+
+</div>
+
+@section Scripts {
+    <script>
+        function tinhTien() {
+            let tongTien = 0;
+            const rows = document.querySelectorAll("tbody tr");
+
+            rows.forEach(row => {
+                let gia = parseFloat(row.querySelector(".giaMon").value) || 0;
+                let soLuong = parseInt(row.querySelector(".soluong").value) || 0;
+                let thanhTien = gia * soLuong;
+
+                row.querySelector(".thanhtien").textContent =
+                    thanhTien.toLocaleString('vi-VN') + " ₫";
+
+                tongTien += thanhTien;
+            });
+
+            document.getElementById("TongTienHienThi").value =
+                tongTien.toLocaleString('vi-VN') + " ₫";
+
+            document.getElementById("TongTien").value = tongTien;
+        }
+
+        document.querySelectorAll(".soluong").forEach(input => {
+            input.addEventListener("input", tinhTien);
+            input.addEventListener("change", tinhTien);
+        });
+
+        // Chạy lần đầu khởi tạo
+        tinhTien();
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
